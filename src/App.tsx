@@ -119,7 +119,7 @@ const Main: React.FC = () => {
     }
   }
 
-  // 첫 로딩 시 잔액 세팅
+  // 첫 렌더링 시 잔액 세팅
   useEffect(() => {
     getNowBalance()
   }, [])
